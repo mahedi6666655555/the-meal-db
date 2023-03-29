@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../card/Card";
-
 import ".//Valena.css";
+
 const Shope = () => {
   let [sard, setCard] = useState([]);
 
@@ -15,13 +15,15 @@ const Shope = () => {
   //   console.log(sard);
   return (
     <div className="continer">
-      <div className="bg-red-400 h-20">
+      <div className=" grid grid-cols-3 gap-5">
         {sard.map((res) => (
           <Card product={res}></Card>
         ))}
       </div>
       {/* this card is for rght side */}
-      <div className=" h-20 bg-green-400"></div>
+      <div className=" shope-right  ">
+        <h1 className="text-center  pt-4 text-2xl font-bold">Your cart</h1>
+      </div>
     </div>
   );
 };

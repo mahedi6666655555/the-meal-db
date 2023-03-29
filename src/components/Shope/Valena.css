@@ -2,3 +2,10 @@
 display: grid;
 grid-template-columns: 4fr 1fr ;
 }
+.shope-right{
+    border: 2px solid goldenrod;
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
