@@ -17,7 +17,7 @@ const Shope = () => {
     <div className="continer">
       <div className=" grid grid-cols-3 gap-5">
         {sard.map((res) => (
-          <Card product={res}></Card>
+          <Card key={res.idMeal} product={res}></Card>
         ))}
       </div>
       {/* this card is for rght side */}
