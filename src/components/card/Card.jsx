@@ -12,6 +12,9 @@ const Card = (props) => {
         <h1 className="text-2xl font-bold pb-2" >{strArea}</h1>
         <h1 className="text-2xl font-bold pb-2" >{strCategory}</h1>
         <h1 className="text-2xl font-bold pb-2" >{strTags}</h1>
+        <div>
+            <button className="py-3 px-7 bg-gray-600  rounded-lg mt-2 text-white">add to cart</button>
+        </div>
         
       </div>
     </div>
